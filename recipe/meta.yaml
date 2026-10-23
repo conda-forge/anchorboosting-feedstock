@@ -1,13 +1,13 @@
 {% set name = "anchorboosting" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.9" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/anchorboosting-{{ version }}.tar.gz
-  sha256: 797439b17b820177926c5cbf77a2a881a6967b3a57baac3fd5148867ada4ee5d
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/anchorboosting-{{ version }}.tar.gz
+  sha256: f629af935b33576bc0533b920182a851e2a94f8689fb8f74107d13fa5d41a181
 
 build:
   noarch: python
